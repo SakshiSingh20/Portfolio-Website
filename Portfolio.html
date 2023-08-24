@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./portfolio.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="shortcut icon" type="image/jpg" href="./assets/fevicon.png" />
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <h1>Sakshi Singh</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+      </button>
+    </nav>
+
+    <!--Hero Section -->
+
+    <section class="hero" id="about">
+      <img
+        src="./assets/asset1main.png"
+        alt="swati-mishra"
+        loading="lazy"
+        class="hero-img"
+      />
+      <div class="bio">
+        <h2 class="bio-title">About Me</h2>
+        <p class="bio-text">
+          I am web developer with 5+ years of experience specializing in
+          developing interactive, responsive, and secure websites. My expertise
+          includes working with backend technologies such as NodeJS and MySQL,
+          and front-end technologies like HTML, CSS, and JavaScript.
+        </p>
+      </div>
+    </section>
+
+    <!-- More About Me Section -->
+
+    <section class="more-about">
+      <h2>More About Me</h2>
+      <p>
+        I'm a web developer with over 5 years of experience. I specialize in
+        building modern, highly interactive web applications. My passion for
+        development keeps me exploring emerging web technologies and finding
+        ways to apply them to real-world projects. I can also develop
+        asynchronous JavaScript and Node.js applications, as well as be
+        responsible for performance tuning, front-end web design and responsive
+        development, and content management system development. I want to help
+        make the web a better place.
+      </p>
+    </section>
+
+    <!-- Skills -->
+
+    <section class="skills" id="skills">
+      <h2 class="skill-header">My Top Skills</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="./assets/skill1.jpg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="./assets/skill2.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="./assets/skill3.jpg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="./assets/skill4.jpg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="./assets/skill5.jpg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="./assets/skill6.jpg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- MY PROJECT -->
+
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Some of my Recent Projects</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="./assets/project1.png"
+            alt="One Card Webpage Clone"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">One Card Webpage Clone</h3>
+          <p class="project-details">
+            A card website clone is a web platform that replicates the
+            functionality and design of a popular card game website. It provides
+            players with the same tools, deck-building capabilities, and
+            community content for an .
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="./assets/project2.png"
+            alt="Barber Salon Website"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Barber Salon Website</h3>
+          <p class="project-details">
+            A barber salon website is an online platform to book appointments,
+            browse services, products, and shop for items from the comfort of
+            their own home. It also allows barbers to manage bookings and
+            clients.
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="./assets/project3.png"
+            alt="Yoga Website"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Yoga Website</h3>
+          <p class="project-details">
+            A Yoga website is a web platform that provides access to yoga
+            classes, resources, products, and news to help people in their yoga
+            practice. It allows users to engage in their practice and reach
+            their fitness goals.
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact -->
+
+    <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xyylngw" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social Media Icon -->
+    <div class="socials">
+      <a href="#" target="_blank"
+        ><img
+          src="./assets/icons8-twitter-circled.gif"
+          alt="Twitter"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="#" target="_blank"
+        ><img
+          src="./assets/icons8-instagram.gif"
+          alt="Instagram"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="#" target="_blank"
+        ><img
+          src="./assets/icons8-linkedin-circled.gif"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="#" target="_blank"
+        ><img src="./assets/icons8-github.gif" alt="Github" class="socicon"
+      /></a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <p class="copy">&copy; Copyright 2023</p>
+      <p class="copy">
+        Built with &#x2661; by
+        <a href="#" target="_blank">Swati Mishra (SM)</a>
+      </p>
+    </footer>
+  </body>
+</html>
